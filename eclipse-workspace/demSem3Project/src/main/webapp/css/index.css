@@ -1,0 +1,169 @@
+@charset "ISO-8859-1";
+
+.fa-solid {
+    font-weight: 900;
+    position: absolute;
+    top: 1.3rem;
+    left: 4.3rem;
+    color: red;
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px)  {
+    .fa-solid{
+        font-weight: 900;
+        position: absolute;
+        top: 1.3rem;
+        left: 7.9rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 799px)  {
+    .fa-solid {
+        font-weight: 900;
+        position: absolute;
+        top: 1.3rem;
+        left: 10.9rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .fa-solid{
+        font-weight: 900;
+        position: absolute;
+        top: 1.3rem;
+        left: 32.3rem;
+    }
+  }
+
+.bg-red{
+    --bs-bg-opacity:1;
+    background-color:red!important
+}
+
+    /* myToggleContainer1 */
+
+
+.myToggleAction {
+    /* display: none; */
+    border-top: 1px solid black;
+}
+
+/* demo Container  */
+#demo {
+    background-color: aqua;
+    /* height: 30rem; */
+    padding: 20px;
+    display: none;
+}
+
+/* Fixed bottom button  */
+.fixedBottomButton {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 0px auto;
+    z-index: 1030;
+    justify-content: center;
+}
+
+.fa-utensils{
+    position: initial;
+    color: white;
+    margin-right: 15px;
+  }
+
+.fa-xmark {
+    position: initial;
+    color: white;
+    margin-right: 15px;
+}
+/* .fa-solid .fa-bowl-spoon {
+    position: relative;
+    top: 40rem;
+    color: aqua;
+    height: 100px;
+    width: 200px;
+    background-color: gold;
+}  */
+
+/* menuItemContainer */
+.menuItemContainer {
+    display: flex;
+}
+
+b {
+    display: block;
+}
+
+.img-responsive{
+    margin: 0px 0px 50px 30px;
+    display: block;
+    max-width: 40%;
+    height: auto;
+}
+
+.addToCart {
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.addToCartModal {
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    /* width: 100%; */
+    border: 1px solid red;
+    background-color: red; 
+    border-radius: 10px;
+}
+
+/* modalCancelButton */
+#modalCancelButton{
+    font-weight: 900;
+    color: black;
+}
+
+.fa-plus {
+    color: red;
+    position: inherit;
+}
+
+.fa-minus {
+    color: red;
+    position: inherit;
+}
+
+.incrementDecrementBtn {
+    color: red;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+
+/* Direct To Cart Container	*/
+#directToCart {
+	background-color: red;
+	width:100%;
+	height:100%;
+	display:none
+}
+
+.billingContent {
+	display:flex;
+	justify-content: space-between;
+}
+
+#exampleModalContent {
+	height: 349px;
+	position:relative;
+    top: inherit;
+}
